@@ -1,0 +1,34 @@
+body {
+    background-position: center;
+    -webkit-tap-highlight-color: transparent;
+    background: url(bl.jpg) no-repeat;
+    background-size: 100%;
+}
+.container {
+    width: 740px;
+}
+.button {
+    border-radius: 13px;
+    
+    background-color: beige;
+}
+.my-5.text-light {
+    margin-left: 40px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    min-width: 212vh;
+    margin-left: -1000px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}

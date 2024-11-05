@@ -1,0 +1,16 @@
+body {
+    background-position: center;
+    -webkit-tap-highlight-color: transparent;
+    background-color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65));
+    background-size: 100%;
+}
+button {
+    margin-left: 45%;
+    border-radius: 1vh;
+    color: azure;
+    font-size: 4vh;
+    background-color: rgb(47, 127, 239);
+    width: 145px;
+    margin-top: 250px;
+}

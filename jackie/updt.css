@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: url(bl.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.container.my-5 {
+    border-radius: 30px;
+    width: 350px;
+    min-height: 445px;
+    height: 461px;
+    background: transparent;
+    padding: 30px 40px;
+    backdrop-filter: blur(15px);
+}
+form {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 36px;
+    outline: none;
+}
+.form-group{
+    width: 230px;
+    margin-left: -24px;
+}
+label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.content {
+    margin-top: 30px;
+    margin-left: -55px;
+}
+.btn.btn-primary {
+    margin-left: 47px;
+}

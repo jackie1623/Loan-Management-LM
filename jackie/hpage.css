@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+}
+.sidebar {
+    position: sticky;
+    top:  0;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgba(113, 99, 186, 255);
+}
+.sidebar:hover {
+    width: 240px;
+    transition: 0.8s;
+}
+.logo {
+    height: 80px;
+    padding: 16px;
+}
+.menu {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+.menu li:hover, 
+.active {
+    background: #e0e0e058;
+}
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+ .menu a span {
+    overflow: hidden;
+ }
+ .menu a i {
+    font-size: 1.2rem;
+ }
+ .logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ }
+
+/* * main body section * */
+ .main--content {
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), 
+    url("dt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 1rem;
+ }
+ 
+ .header--wrapper img {
+    width: 112px;
+    height: 106px;
+    cursor: pointer;
+    border-radius: 60%;
+ }
+ .header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 13vh;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin: 1rem;
+ }
+ .header--title {
+    color: #fff;
+ }
+
+/* ** card container ** */
+.card--container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.card--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.main--title {
+    color: rgba(113, 99, 186, 255);
+    padding-bottom: 10px;
+    font-size: 15px;
+}

@@ -1,0 +1,101 @@
+body {
+    background-position: center;
+    -webkit-tap-highlight-color: transparent;
+    background: url(bl.jpg) no-repeat;
+    background-size: 100%;
+}
+button {
+    background: transparent;
+}
+div.container.my-5 {
+    width: 500px;
+    border-radius: 19px;
+    width: 420px;
+    height: 515px;
+    background: transparent;
+    padding: 30px 40px;
+    backdrop-filter: blur(15px);
+}
+table {
+    border-collapse: collapse;
+}
+table.list {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 87%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 87%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.container{
+    justify-content: center;
+}
+form {
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    margin-left: 23px;
+    background-color: #e5e5ee;
+    background: transparent;
+    
+}
+.form-control {
+    width: 88%;
+}
+label {
+    color: black;
+    border-color: wheat;
+    font-size: large;
+    font-weight: bold;
+}
+form div.form-action-buttons {
+    width: 500%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    width: 131px;
+    margin-right: 2px;
+}
+.btn-primary {
+    width: 103px;
+    margin-top: 18px;
+    margin-right: 8vh;
+}
+
+label.validation-error {
+    color: red;
+    margin-left: 5px;
+    width: 19vh;
+}
+  .hide {
+    display: none;
+  }
